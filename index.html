@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Google</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google</title>
+  
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
   <!--Header-->
-  <div class="header">
-    <div>
+  <div id="header">
+    <div class="float-left"> 
       <ul>
         <li>
           <a href="#">About</a>
@@ -19,30 +21,49 @@
         </li>
       </ul>
     </div>
-    <div>
-      <ul>Gmail</ul>
-      <ul>Images</ul>
 
-      <!--App Icon-->
-      <!--Sign In button-->
+    <div class="float-right">
+      <ul>
+        <li>
+          <a href="#">Gmail</a>
+        </li>
+        <li>
+          <a href="#">Images</a>
+        </li>
+        <li>
+          <!--App Icon-->
+        </li>
+        <li>
+          <!--Sign In button-->
+          <button type="button">Sign in</button>
+        </li>
+      </ul>
     </div>
     
   </div>
 
   <!--Logo-->
-  <div class="logo">
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" width="200px">
+  <div id="logo">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" width="200px">
   </div>
 
   <!--Search box-->
-  <div class="search-box">
+  <div id="search-box">
     <!--search box-->
-    <!--Google Search button-->
-    <!--I'm Feeling lucky button-->
+    <input type="search" name="search" id="search" placeholder="search here">
+
+    <div class="center">
+      <!--Google Search button-->
+      <button type="button">Google Search</button>
+  
+      <!--I'm Feeling lucky button-->
+      <button type="button">I'm Feeling Lucky</button>
+
+    </div>
   </div>
 
   <!--Footer-->
-  <div class="footer">
+  <div id="footer">
     <div class="float-left">
       <ul>
         <li>
