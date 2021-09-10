@@ -1,38 +1,84 @@
+html {
+font-family: sans-serif;
+box-sizing: border-box;
+}
+
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+margin: 0;
 }
 
-li {
-  display: inline;
-  padding-right: 10px;
+section {
+height: 100vh;
 }
 
-#footer {
-  margin-top: auto;
-  width: 100%;
+*, *:before, *:after {
+box-sizing: inherit;
+	 }
+header {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+padding: 20px 30px 20px 0;
 }
 
-.float-left {
-  float: left;
+header div {
+margin: 5px;
 }
 
-.float-right {
-  float: right;
+a {
+font-size: 14px;
+color: #4a4947;
+text-decoration: none;
 }
 
-#logo {
-  border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
+button { 
+background-color: #418ed1;
+border: none;
+color: white;
+padding: 4px 4px;
+border-radius: 3px;
 }
 
-#search-box {
-  border: 1px solid black;
-  height: 90px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.main {
+display: flex;
+padding: 120px 0 0 0;
+flex-direction: column;
+align-items: center;
+}
+
+.logo{
+margin: 0 0 40px 0;
+}
+
+.searchbox {
+width: 70%;
+//border: 1px solid grey;
+border-radius: 50px;
+box-shadow: 2px 5px 8px 3px #888;
+display: flex;
+justify-content: center;
+}
+
+input {
+width: 85%;
+font-size: 1.1em; 
+padding: 10px;
+border: none;
+outline: none;
+}
+
+.icons {
+width: 15%;
+padding: 10px;
+filter: contrast(60%);
+}
+
+.applogo {
+margin: 0 5px;
+border-radius: 50%;
+filter: contrast(60%);
+}
+
+.applogo:hover {
+background-color: gray;
 }
