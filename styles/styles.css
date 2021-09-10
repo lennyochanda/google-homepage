@@ -1,5 +1,5 @@
 html {
-font-family: sans-serif;
+font-family: Roboto, RobotoDraft, Arial;
 box-sizing: border-box;
 }
 
@@ -26,7 +26,8 @@ margin: 5px;
 }
 
 a {
-font-size: 14px;
+font-size: 13px;
+font-weight: 400;
 color: #4a4947;
 text-decoration: none;
 }
@@ -80,5 +81,5 @@ filter: contrast(60%);
 }
 
 .applogo:hover {
-background-color: gray;
+background-color: bfbfbf;
 }
